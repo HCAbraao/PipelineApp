@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL helder@company.company
+LABEL org.opencontainers.image.authors="HCAbraao"
 RUN yum install -y httpd \
 zip\
 unzip
